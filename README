@@ -1,0 +1,16 @@
+sysstat
+-------
+
+This is the sysstat module.
+
+License
+-------
+GPL
+
+Contact
+-------
+Iouns <iounes.gardon@gmail.com>
+
+Support
+-------
+Please log tickets and issues at [https://github.com/Iouns/puppet-sysstat](https://github.com/Iouns/puppet-sysstat)
