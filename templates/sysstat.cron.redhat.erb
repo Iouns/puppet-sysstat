@@ -1,0 +1,5 @@
+# Run system activity accounting tool every 10 minutes
+<%= scope.lookupvar('sysstat::interval') %> root /usr/lib/sa/sa1 1 1
+
+# Generate a daily summary of process accounting at 23:53
+53 23 * * * root /usr/lib/sa/sa2 -A
